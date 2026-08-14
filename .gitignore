@@ -1,0 +1,38 @@
+# Python virtual environment
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Python eggs / dist
+*.egg-info/
+dist/
+build/
+
+# Environment variables (keep your secrets safe)
+.env
+*.env
+
+# React / Node
+gesture-controller-frontend/node_modules/
+gesture-controller-frontend/build/
+gesture-controller-frontend/.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code settings
+.vscode/
+
+# Screenshots taken by the controller
+screenshots/
+*.png

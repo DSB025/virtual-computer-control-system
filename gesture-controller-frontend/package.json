@@ -1,0 +1,50 @@
+{
+  "name": "gesture-voice-controller-ui",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.0",
+    "react-router-dom": "^6.22.0",
+    "axios": "^1.6.7",
+    "react-hot-toast": "^2.4.1",
+    "lucide-react": "^0.344.0",
+    "recharts": "^2.12.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "Production-ready React dashboard for the **Hand Gesture + Voice Command Controller** final year project.",
+  "main": "index.js",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "overrides": {
+  "babel-loader": "8.3.0"
+}
+}

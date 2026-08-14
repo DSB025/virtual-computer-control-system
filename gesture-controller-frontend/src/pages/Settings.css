@@ -1,0 +1,128 @@
+.settings-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.settings-header {
+  margin-bottom: 0.25rem;
+}
+
+.settings-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+.settings-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.settings-group-title {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--accent-cyan);
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.settings-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.settings-field {
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.settings-field:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.field-val {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--accent-cyan);
+  font-weight: 700;
+}
+
+.field-hint {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+  line-height: 1.4;
+}
+
+/* ─── Toggle ──────────────────────────────────────────── */
+.toggle-btn {
+  width: 42px;
+  height: 22px;
+  border-radius: 99px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+  transition: background 0.2s;
+}
+
+.toggle-btn.on {
+  background: var(--accent-cyan);
+}
+
+.toggle-btn.off {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+}
+
+.toggle-thumb {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  top: 3px;
+  transition: left 0.2s;
+}
+
+.toggle-btn.on .toggle-thumb {
+  left: 23px;
+}
+
+.toggle-btn.off .toggle-thumb {
+  left: 3px;
+}
+
+/* ─── Warning ─────────────────────────────────────────── */
+.settings-warning {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  background: rgba(251,191,36,0.06);
+  border: 1px solid rgba(251,191,36,0.2);
+  border-radius: var(--radius-md);
+  padding: 0.85rem 1.1rem;
+  color: var(--accent-yellow);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+
+.settings-warning svg {
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+@media (max-width: 768px) {
+  .settings-grid {
+    grid-template-columns: 1fr;
+  }
+}
