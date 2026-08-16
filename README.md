@@ -1,4 +1,4 @@
-# ✋ Hand Gesture + Voice Command Controller
+# Hand Gesture + Voice Command Controller
 
 **Final Year Project** — AI-Powered Human–Computer Interaction
 
@@ -7,7 +7,7 @@ and natural voice commands — no mouse, no keyboard, no special hardware.
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 - **MediaPipe** — Real-time hand landmark detection
 - **OpenCV** — Camera capture and frame processing
@@ -19,7 +19,7 @@ and natural voice commands — no mouse, no keyboard, no special hardware.
 
 ---
 
-## ✨ Features
+## Features
 
 - 16 hand gestures (click, scroll, drag, swipe, screenshot, and more)
 - 30+ voice commands (browser control, system, mouse, web shortcuts)
@@ -29,7 +29,7 @@ and natural voice commands — no mouse, no keyboard, no special hardware.
 
 ---
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 ### Prerequisites
 - Python 3.10+
@@ -54,7 +54,7 @@ Open **http://localhost:3000** in your browser.
 
 ---
 
-## 🎮 Gesture Reference
+## Gesture Reference
 
 | Gesture | Action |
 |---|---|
@@ -69,7 +69,7 @@ Open **http://localhost:3000** in your browser.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 gesture-voice-controller/
